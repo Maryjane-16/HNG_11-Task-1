@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
     <header>
@@ -11,16 +12,39 @@
             <nav>
                 <h1>Chinazor Okwuazi</h1>
                 <h1>okwuazichinazor@gmail.com</h1>
+                <a href="http://hng.tech/learn" data-testid="hngLink">HNG tech</a>
+                <a href="http://keyword.dog/" data-testid="keywordLink"
+                  >Keyword link</a
+                >
+                <a href="http://scrapeanyweb.site/" data-testid="scrapeanywebLink"
+                  >Scrape any web</a
+                >
             </nav>
-            <img src="./image/pix.jpg" alt="profile picture">
+            <img 
+            src="./image/pix.jpg" alt="profile picture">
+          alt="profile picture"
+          data-testid="slackProfilePicture"
+          />
         </div>
     </header>
     <section>
         <article>
             <div>
-                <h2>Two Year Plan</h2>
+                <h4>Two Year Plan in HNG tech</h4>
+                <p>
+                    Skill Building and Networking
+                    *Learn key technologies (e.g., Python, JavaScript),enroll in online courses/certifications and join tech communities (e.g., GitHub, LinkedIn).
+                    *Start personal or open-source projects, Participate in hackathons and find a mentor.
+                    *Apply for internships and start attending tech meetups and conferences.
+                    *Specialize on a specific area (Front end) and start bulding projects.
+                    *Advance in my area of specilization and obtain advanced certificate.
+                    *Stay up-to-date and enhance my skill.
+                </p>
+                <div id="dateTime"></div>
             </div>
         </article>
     </section>
+
+    <script src="./app.js"></script>
 </body>
 </html>
